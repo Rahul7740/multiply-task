@@ -1,0 +1,46 @@
+body{
+    background-color: #3D4D3A;
+}
+.container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,80%);
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    color: #C8232C;
+}
+.score{
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-size: 20px;
+    color: #C8232C;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input{
+    padding: 9px;
+    border: 2px solid #C8232C;
+    text-align: center;
+    border-radius: 15px;
+}
+button{
+    padding: 9px;
+    background-color:#C8232C;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+}
